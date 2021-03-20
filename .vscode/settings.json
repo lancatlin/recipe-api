@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.python",
+  "python.disableInstallationCheck": true,
+  "python.globalModuleInstallation": true,
+  "python.linting.enabled": false
+}
