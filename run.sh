@@ -1,6 +1,6 @@
 #!/bin/bash
 COMMAND="$*"
-if [ $COMMAND == "test" ]; then
+if [ $1 == "test" ]; then
     COMMAND="python manage.py test && flake8"
 fi
 echo $COMMAND
